@@ -1,0 +1,53 @@
+.container{
+    margin: 0;
+   
+    display:block;
+    justify-items: center;
+    margin: 0 200px 0;
+    position: relative;
+}
+.introdaction{
+    background-color: aliceblue;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left:230px ;
+    margin-right: 250px;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    margin-left: 25%;
+    
+}
+.fieldset{
+    background-color: rgb(116, 183, 183);
+    padding: 0 120px 0;
+}
+.form label{
+    display: block;
+    background-color: rgb(200, 55, 55);
+    padding-top:5px ;
+    padding-bottom:5px ;
+
+}
+.form input[type="text"]{
+    width: 250px;
+}
+.form input[type="email"]{
+    width: 250px;
+}
+button.like{
+    background-color: orange;
+    padding: 10px 29px;
+    border-radius: 25px;
+}
+.shadowed{
+    position: absolute;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    background-color: white;
+    left: 20px;
+    top: -20px;
+   
+}
